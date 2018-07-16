@@ -1,0 +1,17 @@
+html{
+  background-color:#333333;
+  color:#EEEEEE;
+  font-family:sans-serif;
+  font-size:16px;
+
+  font-weight: 300;
+  width:100%;
+}
+
+ol li{
+  margin-top: 10px;
+}
+
+a{
+  color: #EEEEEE;
+}

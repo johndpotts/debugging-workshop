@@ -1,3 +1,12 @@
+const button = document.querySelector('#my-button');
+const textToToggle = document.querySelector('#toggle');
+button.addEventListener('click', toggleText)
+
+function toggleText () {
+	
+}
+
+
 
 	const data = [
 		{
@@ -21,11 +30,10 @@
 			href: 'https://charlottedevs.com/'
 		}
 	];
-  
-  
+
+
 	for (var i = 0; i<data.length; i++) {
 		if (data.text) {
 			document.querySelector('#links').innerHTML += `<p><a href="${data.href}">${data.text}</a></p>`);
 		}
 	}
-
