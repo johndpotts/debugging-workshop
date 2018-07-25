@@ -9,3 +9,4 @@ fetch('https://api.github.com/users/charlottedevs')
   .catch(() => {
     githubLink.innerHTML = 'Hey, you blocked my request!';
   });
+
