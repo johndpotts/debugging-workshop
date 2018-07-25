@@ -24,11 +24,12 @@ const data = [
   }
 ];
 
-
+function ingredients() {
 for (var i = 0; i<data.length; i++) {
   if (data.text) {
     document.querySelector('#middle-ingredients').innerHTML += `<p><a href="${data.href}">${data.text}</a></p>`;
   }
+}
 }
 
 
@@ -205,4 +206,4 @@ for (var i = 0; i<data.length; i++) {
 
 
 
-sessionStorage.setItem('Last Ingredient', 'Chocolate Chip Cookies!');
+sessionStorage.setItem('Last Ingredient', 'Chocolate Chips!');
