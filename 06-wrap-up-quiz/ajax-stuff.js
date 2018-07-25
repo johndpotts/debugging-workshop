@@ -8,5 +8,5 @@
       lastIngredient.innerHTML = `<a href="${data.url}" target="_blank">Find Charlotte Devs on Github</a>`;
     })
     .catch(() => {
-      lastIngredient.innerHTML = `<a href="" target="blank">Chocolate Chips!</a>`;
+      lastIngredient.innerHTML = `<a href="" target="blank">Flour</a>`;
     });
