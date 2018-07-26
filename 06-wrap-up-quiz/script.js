@@ -206,4 +206,4 @@ for (var i = 0; i<data.length; i++) {
 
 
 
-sessionStorage.setItem('Last Ingredient', 'Chocolate Chips!');
+sessionStorage.setItem('TheLastIngredient', 'Chocolate Chips!');
