@@ -1,12 +1,12 @@
 
 
-  const lastIngredient = document.querySelector('#last-ingredient')
+  const firstIngredient = document.querySelector('#first-ingredient')
 
   fetch('https://api.github.com/users/charlottedevs')
     .then(data => data.json())
     .then(data => {
-      lastIngredient.innerHTML = `<a href="${data.url}" target="_blank">Find Charlotte Devs on Github</a>`;
+      firstIngredient.innerHTML = `<a href="${data.url}" target="_blank">Find Charlotte Devs on Github</a>`;
     })
     .catch(() => {
-      lastIngredient.innerHTML = `<a href="" target="blank">Flour</a>`;
+      firstIngredient.innerHTML = `<a href="" target="blank">Flour</a>`;
     });
